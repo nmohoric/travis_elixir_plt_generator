@@ -1,9 +1,8 @@
 language: elixir
 elixir:
-  - 1.4.1
+  - 1.6.1
 otp_release:
-  - 18.0
-  - 19.0
+  - 20.2
 before_script:
   - export PATH=`pwd`/elixir/bin:$PATH
   - git clone git://github.com/jeremyjh/dialyxir.git
